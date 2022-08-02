@@ -5,9 +5,9 @@ module.exports = function towelSort (matrix) {
   
 let matrix2 =[];
 let result = [];
-let result2 = [];
 
-if (typeof(matrix) === (undefined)) {return []} else {
+
+if (!matrix) {return []} else {
 
 for (let i = 0; i < matrix.length; i++) {
   if ((i % 2) === 0 ) {
